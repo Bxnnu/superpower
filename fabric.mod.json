@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "superpowers",
+  "version": "${version}",
+  "name": "Superpowers",
+  "description": "Pick a superpower: speed, super jump, flight, laser eyes, fireballs or super strength.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.superpowers.Superpowers"],
+    "client": ["com.example.superpowers.client.SuperpowersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
